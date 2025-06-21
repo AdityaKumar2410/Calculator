@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  integrity="sha512-xxxxx" 
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/> -->
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./utils.css" />
+  </head>
+  <body>
+    <h1 class="text-center">Calculator</h1>
+    <div class="calculator mx-auto flex flex-col items-center">
+      <input type="text" class="display" readonly  />
+      <div class="button-grid">
+        <button class="button" value="7">7</button>
+        <button class="button" value="8">8</button>
+        <button class="button" value="9">9</button>
+        <button class="button" value="*">*</button>
+        <button class="button" value="4">4</button>
+        <button class="button" value="5">5</button>
+        <button class="button" value="6">6</button>
+        <button class="button" value="/">/</button>
+        <button class="button" value="1">1</button>
+        <button class="button" value="2">2</button>
+        <button class="button" value="3">3</button>
+        <button class="button" value="+">+</button>
+        <button class="button" value="0">0</button>
+        <button class="button" value=".">.</button>
+        <button class="button" value="=">=</button>
+        <button class="button" value="%">%</button>
+        <button class="clear" value="C">C</button>
+        <button class="button" value="backspace">⌫</button>
+      </div>
+      
+    </div>
+    
+    <script src="./app.js"></script>
+  </body>
+</html>
